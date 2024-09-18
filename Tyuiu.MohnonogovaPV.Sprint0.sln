@@ -5,11 +5,19 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{39CC62E1-3A6A-49DD-8F35-F45A4B4DD548}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint0.Task0.V0", "Tyuiu.MohnonogovaPV.Sprint0.Task0.V0\Tyuiu.MohnonogovaPV.Sprint0.Task0.V0.csproj", "{91F600D8-E22A-49B9-9315-FD1DCC8BBF35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint0.Task0.V0", "Tyuiu.MohnonogovaPV.Sprint0.Task0.V0\Tyuiu.MohnonogovaPV.Sprint0.Task0.V0.csproj", "{91F600D8-E22A-49B9-9315-FD1DCC8BBF35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{2B035D88-EB07-4F5D-9DCB-37AE534967CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint0.Task1.V0", "Tyuiu.MohnonogovaPV.Sprint0.Task1.V0\Tyuiu.MohnonogovaPV.Sprint0.Task1.V0.csproj", "{53A422D4-76C5-4F2F-A93F-0DD650681115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.MohnonogovaPV.Sprint0.Task1.V0", "Tyuiu.MohnonogovaPV.Sprint0.Task1.V0\Tyuiu.MohnonogovaPV.Sprint0.Task1.V0.csproj", "{53A422D4-76C5-4F2F-A93F-0DD650681115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{20109D14-E273-42D1-9BEC-40D0AE13B330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0", "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0\Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.csproj", "{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Lib", "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Lib\Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Lib.csproj", "{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Test", "Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Test\Tyuiu.MohnonogovaPV.Sprint0.Task2.V0.Test.csproj", "{E6797188-C3C5-4576-B5DA-596CACE3F30A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,18 @@ Global
 		{53A422D4-76C5-4F2F-A93F-0DD650681115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53A422D4-76C5-4F2F-A93F-0DD650681115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53A422D4-76C5-4F2F-A93F-0DD650681115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6797188-C3C5-4576-B5DA-596CACE3F30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6797188-C3C5-4576-B5DA-596CACE3F30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6797188-C3C5-4576-B5DA-596CACE3F30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6797188-C3C5-4576-B5DA-596CACE3F30A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{91F600D8-E22A-49B9-9315-FD1DCC8BBF35} = {39CC62E1-3A6A-49DD-8F35-F45A4B4DD548}
 		{53A422D4-76C5-4F2F-A93F-0DD650681115} = {2B035D88-EB07-4F5D-9DCB-37AE534967CD}
+		{DA4871A1-9F6A-4788-8F2A-7C1CBD00354B} = {20109D14-E273-42D1-9BEC-40D0AE13B330}
+		{BEE9407E-EE8A-4B09-9526-B0CCBFD54A14} = {20109D14-E273-42D1-9BEC-40D0AE13B330}
+		{E6797188-C3C5-4576-B5DA-596CACE3F30A} = {20109D14-E273-42D1-9BEC-40D0AE13B330}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8ADEFA66-1700-4854-B5D1-5244A8ADD1CB}
